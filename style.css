@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.box {
+    width: 500px;
+    background: rgb(224, 216, 220);
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    font-size: 36px;
+    padding: 30px 0;
+}
+
+.content {
+    padding: 0 30px;
+}
+/* wiek */
+.input {
+    background: #ffff;
+    border-radius: 12px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+.input label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.input input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #7786d8;
+    width: 50%;
+    text-align: center;
+    font-size: 28px;
+    font-family: Tahoma, sans-serif;
+}
+.containerHW {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inputW {
+    background: #ffff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+
+}
+
+.inputW label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.inputW input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #7786d8;
+    width: 50%;
+    text-align: center;
+    font-size: 28px;
+    font-family: Tahoma, sans-serif;
+}
+
+.inputH {
+    background: #ffff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.inputH label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.inputH input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #7786d8;
+    width: 50%;
+    text-align: center;
+    font-size: 28px;
+    font-family: Tahoma, sans-serif;
+}
+
+.gender {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background: #ffff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.gender label {
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: 600;
+}
+button.calculate{
+    cursor: pointer;
+    font-family: Tahoma, sans-serif;
+    color:#ffff;
+    background: #7786d8;
+    font-size: 16px;
+    border-radius: 7px;
+    padding: 12px 0;
+    width: 100%;
+    outline: none;
+    border: none;
+    transition: all 0.5s;
+}
+button.calculate:hover {
+    background: #394ec5;
+}
+.result {
+    padding: 10px 20px;
+}
+.result p {
+    font-weight: 600;
+    font-size: 22px;
+    color: black;
+    margin-bottom: 15px;
+}
+.result #result{
+    font-size: 36px;
+    font-weight: 900;
+    color: #394ec5;
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 55px;
+    margin-bottom: 25px;
+}
+#comment{
+    color:#394ec5;
+    font-weight: 800;
+    
+}
+.comment{
+    display: block;
+    border: dashed 1px;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+
+
+/* mobile */
+@media (max-width: 700px){
+    .box{
+        width: 380px;
+    }
+    .input label {
+        font-size: 18px;
+    }
+    .input input, .inputH input, .inputW input{
+        font-size: 24px;
+    }
+    .modal-content {
+        width: 380px;
+    }
+    
+}
